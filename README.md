@@ -2,9 +2,6 @@
 
 A clean, lightweight, and user-friendly desktop calculator built with Python and **Tkinter**. This project demonstrates fundamental GUI programming concepts, grid layout management, event handling, and clean code practices (DRY principle).
 
-![Calculator Screenshot](Picture1.png)
-*(Note: Upload your calculator screenshot to the repository and name it `Picture1.png` to display it here)*
-
 ## ✨ Features
 
 * **Basic Arithmetic Operations:** Supports addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`).
@@ -29,4 +26,5 @@ Make sure you have Python installed on your system. Tkinter comes pre-installed 
 ### Running the Application
 1. Clone this repository:
    ```bash
+   A
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
