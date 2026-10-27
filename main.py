@@ -5,6 +5,7 @@ import tkinter as tk
 ## window
 window = tk.Tk()
 window.title("Python Calculator")
+window.resizable(False, False)
 
 ## entry
 display = tk.Entry(window, borderwidth=5, relief="sunken")
