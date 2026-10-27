@@ -11,6 +11,7 @@ window.title("Python Calculator")
 ## entry
 display = tk.Entry(window, borderwidth=5, relief="sunken")
 display.grid(row=0, column=0, columnspan=4, padx=10, pady=15)
+display.focus()
 
 
 ## buttons
@@ -48,6 +49,10 @@ def button_equal():
     except:
         button_clear()
         display.insert(0, "ERROR")
+
+window.bind('<Return>', lambda event: button_equal())
+
+window.bind('<Escape>', lambda event: button_clear())
 
 # run the program
 window.mainloop()
