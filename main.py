@@ -28,8 +28,8 @@ for text, row, col in buttons:
 def button_click(value):
     if display.get() == "ERROR":
         button_clear()
-        display.insert(tk.END, value
-    elif value == "c":
+
+    if value == "c":
         button_clear()
     elif value == "=":
         button_equal()
